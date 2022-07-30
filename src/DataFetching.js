@@ -9,7 +9,7 @@ const DataFetching = () => {
   useEffect(() => {
     setIsLoading(true);
     axios
-      .get("https://jsonplaceholder.typicode.com/posdsts")
+      .get("https://jsonplaceholder.typicode.com/posts")
       .then((res) => {
         setIsLoading(false);
         console.log(res);
